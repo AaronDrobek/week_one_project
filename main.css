@@ -1,0 +1,138 @@
+/** {*/
+  /*border: 2px solid red;*/
+/*}*/
+
+body,* {
+  margin: 0;
+  padding: 0;
+  background-color: #F2F1E8;
+}
+.container {
+display: flex;
+flex-direction: row;
+background: white;
+width: 100vw;
+height: 70px;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  /*padding-bottom: 100px;*/
+
+}
+h1 {
+  align-self: center;
+  padding-top: 2vh;
+}
+h2{
+  align-self: center;
+}
+
+
+.nav-bar{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  background: white;
+  padding: 10px;
+}
+.nav-bar a{
+  padding: 2px;
+  margin-left: 100px;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  background: white;
+}
+
+
+
+#logo{
+  background: white;
+  height: 50px;
+  width: 50px;
+  align-self: flex-start;}
+
+.first_section_pictures {
+  display: flex;
+  flex-direction: row;
+
+  }
+  #one {
+  background-image: url("img/product-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 60vw;
+  margin: 2px;
+}
+#two{
+background-image: url("img/product-2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 50vh;
+width: 20vw;
+margin: 2px;
+}
+#three{
+background-image: url("img/product-3.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 50vh;
+width: 20vw;
+margin: 2px;
+}
+
+
+
+
+#four{
+background-image: url("img/product-4.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 40vh;
+width: 25vw;
+margin: 2px;
+}
+#five{
+background-image: url("img/product-5.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 40vh;
+width: 25vw;
+margin: 2px;
+}
+#six{
+background-image: url("img/product-6.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 40vh;
+width: 25vw;
+margin: 2px;
+}
+
+#seven{
+background-image:url("img/product-7.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 40vh;
+width: 25vw;
+margin: 2px;
+}
+h3{
+color: white;
+background: #2B2F26;
+/*background: #968772;*/
+margin-top: 35vh;
+float:left;
+/*padding-bottom:*/
+/*margin-top:*/
+}
+
+footer {
+  color: white;
+  background: #2B2F26;
+}
