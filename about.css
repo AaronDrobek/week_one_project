@@ -224,9 +224,38 @@ height: 60vh;
   padding-top: 30vh;
   padding-left: 12vw;
   padding-right: 10vw;
+}
+
+.foot_table h3{
+  font-size: 15pt;
 
 }
+.foot_table{
+  margin-left: 5vw;
+  padding-bottom: 5vh;
+}
+
+table{
+  background: none;
+  width: 60vw;
+  height: 30vh;
+  /*padding-bottom: 5vh;*/
+  border: 3px solid gray;
+}
+.foot_table th{
+  background: none;
+  border: 4px solid #968772;
+}
+.foot_table td{
+  border: 2px solid #968772;
+}
+
+
+#row_one{
+  background: #F2F1E8;
+}
 footer {
+  margin-top: 5vh;
   font-weight: 400;
   padding-top: 3vh;
   padding-bottom: 3vh;
