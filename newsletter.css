@@ -46,10 +46,34 @@ height: 70px;
 }
 .nav-bar a{
   padding: 2px;
-  margin-left: 100px;
+  /*margin-left: 100px;*/
   border: 2px solid white;
   border-radius: 3px;
-  color: black;
-  text-decoration: none;
+  color: #2B2F26;
+  /*text-decoration: none;*/
   font-weight: 500;
+  background: #FFFFFF;
+}
+.nav-bar a:hover{
+  padding: 2px;
+  /*margin-left: 100px;*/
+  border: 2px solid white;
+  border-radius: 3px;
+  color: #CD5D67;
+  /*text-decoration: none;*/
+  font-weight: 500;
+  background: #FFFFFF;
+
+}
+
+.nav-bar a:active{
+  padding: 2px;
+  /*margin-left: 100px;*/
+  border: 2px solid white;
+  border-radius: 3px;
+  color: #968772;
+  /*text-decoration: none;*/
+  font-weight: 500;
+  background: #FFFFFF;
+
 }
