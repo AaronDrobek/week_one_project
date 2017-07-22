@@ -118,6 +118,13 @@ margin-right: 5vw;
   /*justify-content: center;*/
   /*font-size: 30pt;*/
 
+.heading a{
+  color: #968772;
+}
+.heading a:hover{
+  color: #967343;
+}
+
 .heading p{
   font-size: 15pt;
 
@@ -231,15 +238,16 @@ height: 60vh;
 
 }
 .foot_table{
+
+  margin-right: 10vw;
+  width: 20vw;
   margin-left: 5vw;
-  padding-bottom: 5vh;
+  /*padding-bottom: 5vh;*/
 }
 
 table{
-  background: none;
-  width: 60vw;
+  width: 70vw;
   height: 30vh;
-  /*padding-bottom: 5vh;*/
   border: 3px solid gray;
 }
 .foot_table th{
