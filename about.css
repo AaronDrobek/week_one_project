@@ -15,6 +15,7 @@ flex-direction: row;
 background: #FFFFFF;
 width: 100vw;
 height: 70px;
+position: fixed;
 
 
 
@@ -79,7 +80,7 @@ height: 70px;
 h1{
   font-size: 40pt;
   margin-bottom: 5vh;
-  padding-top: 5vh;
+  padding-top: 20vh;
   display:flex;
   justify-content: center;
 }
